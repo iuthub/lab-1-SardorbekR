@@ -1,0 +1,52 @@
+body{
+	background-image: url(back.jpg);
+	background-size: 100%;
+    font-size: 19pt;
+}  
+
+h2 {
+    text-shadow: 1px 1px 3px gray;
+	color:white;
+    font-family: "Corbel", "Segoe UI light", serif;
+}
+h1 {
+	color:white;
+    font-family: "Segoe UI light", sans-serif;
+}
+p,li{
+color:white;
+	font-family: "Calisto MT";
+}
+img{
+	margin: 0px;
+    padding: 0%;
+    border:0px;
+    border: black;
+    height: 15%; width: 25%;
+}
+/*img{
+	height: 470px; width: 335px;
+}*/
+a:link, a:visited {
+	transform: scale(1.1);
+	transition: 0.4s all;
+	color: gray;
+    font-family: "Maiandra GD";
+    text-decoration: none;
+    font-size: 16pt;
+    text-align: center;
+    display: inline-block;
+    border-radius: 7px;
+    margin: 7px;
+    padding-left: 4px;
+    padding-bottom: 0.5px;
+    padding-right: 4px;
+    box-shadow: -1px 1px 3px white;
+}
+a:hover {
+    text-decoration: underline;
+    color: white;
+    box-shadow: -1px 1px 12px white;
+    
+	
+}
